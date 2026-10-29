@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Сатурн — газовый гигант с яркой системой колец: факты, спутники и исследования.">
+  <title>Сатурн — Космос рядом</title>
+  <link rel="icon" type="image/svg+xml" href="favicon.svg">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="CSS/style.css">
+</head>
+<body>
+  <header class="site-header">
+    <div class="container header-inner">
+      <a class="brand" href="index.html" aria-label="Космос рядом — на главную">
+        <span class="brand-icon" aria-hidden="true">✦</span>
+        <span>Космос рядом</span>
+      </a>
+      <button class="menu-toggle" type="button" aria-label="Открыть меню"
+        aria-expanded="false" aria-controls="main-navigation">
+        <span></span><span></span><span></span>
+      </button>
+      <nav class="nav" id="main-navigation" aria-label="Основная навигация">
+        <ul class="nav-list">
+          <li><a href="index.html">Главная</a></li>
+          <li><a href="index.html#objects">Небесные объекты</a></li>
+          <li><a href="index.html#events">События</a></li>
+          <li><a href="index.html#news">Новости</a></li>
+          <li><a href="index.html#observations">Наблюдения</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main id="main">
+    <section class="section">
+      <div class="container">
+        <p class="section-label">Небесные объекты</p>
+        <h1 style="font-size: clamp(29px, 4vw, 42px); letter-spacing: -1.3px; margin: 0 0 18px;">Сатурн</h1>
+        <img src="screenshots/сатурн1.jpg"
+          alt="Сатурн с его выразительной системой колец"
+          style="width: 100%; max-width: 760px; border-radius: 20px; margin-bottom: 22px;">
+        <p style="max-width: 760px;">Сатурн — газовый гигант, знаменитый яркой системой колец
+          из частиц льда и каменистого материала. Это наименее плотная планета
+          Солнечной системы: в среднем она легче воды.</p>
+        <p style="max-width: 760px;">У Сатурна множество известных спутников, крупнейший
+          из которых — Титан — обладает плотной атмосферой. Планету исследовала
+          миссия Cassini, проработавшая на её орбите 13 лет.</p>
+        <p class="section-bottom"><a href="index.html#objects">← Вернуться к небесным объектам</a></p>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <div class="footer-bottom">
+        <p>© <span id="current-year">2026</span> «Космос рядом».</p>
+        <p>Информация предназначена для образовательных целей.</p>
+      </div>
+    </div>
+  </footer>
+
+  <script src="js/main.js"></script>
+</body>
+</html>
