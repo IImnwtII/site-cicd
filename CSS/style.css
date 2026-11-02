@@ -1101,3 +1101,38 @@ h1 {
     transition-duration: .01ms !important;
   }
 }
+
+/* Единое оформление страниц планет */
+
+.planet-page-title {
+  max-width: 760px;
+  margin-bottom: 22px;
+  font-size: clamp(29px, 4vw, 42px);
+  line-height: 1.2;
+  letter-spacing: -1.3px;
+}
+
+.planet-image {
+  display: block;
+  width: 100%;
+  max-width: 900px;
+  height: 420px;
+  margin-bottom: 24px;
+  border-radius: 20px;
+  background: #000;
+  object-fit: contain;
+}
+
+.planet-description {
+  max-width: 760px;
+  line-height: 1.7;
+}
+
+/* Отображение на мобильных устройствах */
+
+@media (max-width: 600px) {
+  .planet-image {
+    height: 260px;
+    border-radius: 14px;
+  }
+}
